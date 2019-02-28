@@ -1,0 +1,48 @@
+{
+  "name": "react-cheers",
+  "version": "1.0.0",
+  "description": "A simple interactive alert",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugbechike/react-cheers.git"
+  },
+  "keywords": [
+    "react",
+    "cheers",
+    "alert",
+    "notification"
+  ],
+  "author": "Ugbe Chike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugbechike/react-cheers/issues"
+  },
+  "homepage": "https://github.com/ugbechike/react-cheers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^2.1.0",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3",
+    "watchable-stores": "^2.0.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
